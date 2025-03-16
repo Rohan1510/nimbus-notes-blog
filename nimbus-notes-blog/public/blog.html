@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Nimbus Notes</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Nimbus Notes</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><button class="signin-btn" onclick="openModal()">Sign In</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-grid" id="blog-container">
+            <!-- Blog posts will be loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nimbus Notes. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Fix: Include auth.js before blog.js -->
+    <script src="../scripts/auth.js"></script>
+    <script src="../scripts/blog.js"></script>
+</body>
+</html>
